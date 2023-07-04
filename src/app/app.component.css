@@ -1,0 +1,13 @@
+iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    z-index: -3; /* To place it behind other content */
+  }
+  
+.container{
+    background-attachment: fixed;
+    background-image: url('https://my.spline.design/saltpeppercopy-c0b3a2fb31c305c93c17d44057b333de/');
+}

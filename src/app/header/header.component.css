@@ -1,0 +1,16 @@
+.title{
+    font-weight: bold;
+    font-weight: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin-top: -1%;
+}
+.navbar-title{
+    float: left;
+}
+.navbar-tabs{
+    float: right;
+}
+.navbar{
+    opacity: 80%;
+}

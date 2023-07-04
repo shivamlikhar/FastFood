@@ -1,0 +1,8 @@
+.list-group-item{
+    background-color: transparent;
+    border: 0px solid transparent;
+    font-weight: 600;
+    color: gray;
+    letter-spacing: 0.3px;
+    font-size: 15px;
+}

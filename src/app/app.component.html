@@ -1,0 +1,15 @@
+<app-header (featureSelected)="onNavigate($event)"></app-header>
+<!-- <iframe src='https://my.spline.design/devicemodelcopy-30fe2daa1ce28358accee9984262c853/' frameborder='0' width='100%' height='100%' style="margin-top: -10%;"></iframe> -->
+<!-- <iframe src='https://my.spline.design/saltpeppercopy-c0b3a2fb31c305c93c17d44057b333de/' frameborder='0' width='100%' height='100%'></iframe> -->
+<!-- <iframe src='https://my.spline.design/devicemodelcopy-30fe2daa1ce28358accee9984262c853/' frameborder='0' width='100%' height='100%' style="margin-top: -10%;"></iframe> -->
+<div class="container">
+  <!-- <app-header></app-header> -->
+  <!-- <router-outlet></router-outlet> -->
+  <!-- <app-home></app-home> -->
+  <div class="row">
+    <div class="col-md-12">
+        <app-recipe  *ngIf="loadedFeature !== 'instamart'"></app-recipe>
+        <app-shopping  *ngIf="loadedFeature === 'instamart'"></app-shopping>
+      </div>
+    </div>
+</div>
